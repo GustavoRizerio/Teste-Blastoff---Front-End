@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 11</title>
+</head>
+<body>
+    <script>
+    //Esse codigo não ira retornar nenhum resultado, ele vai dar um erro no console
+    //Vai dar esse erro: Uncaught ReferenceError: multiplica is not defined at Questao11.html:17:9
+    //esse erro se da pelo caso de que a funçao foi chamda de forma errada
+    //ela devia ser chamada como "multiplicacao" e esta sendo chamada como "multiplica"
+
+  /*     function multiplicacao (num1,num2) {
+        let resultado = num1 * num2;
+        return resultado;
+    }
+        multiplica(4, 7);
+        multiplica(5, 6);
+        multiplica(3, 3);  */
+
+        //codigo errado
+    
+        // Para o codigo funcionar é preciso fazer assim: 
+
+        function multiplicacao (num1,num2) {
+        let resultado = num1 * num2;
+        return resultado;
+    }
+        console.log(multiplicacao(4, 7)); //valor da multiplicação: 28
+        console.log(multiplicacao(5, 6)); //valor da multiplicação: 30
+        console.log(multiplicacao(3, 3)); //valor da multiplicação: 9
+
+        //funciona corretamente agora que chamei a função de forma certa.
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+:root{
+    --branco: #FFF;
+        
+    --fonte-link: #0084FF;
+    --bg-chamada: #00161C;
+
+}
+
+body{
+    font-family: 'Open sanse', sans-serif;
+}
+
+.container { 
+    padding-right: 6%;
+    padding-left:6%;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
